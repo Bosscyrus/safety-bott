@@ -3,7 +3,7 @@ import streamlit as st
 from crewai import Agent, Task, Crew, LLM
 
 # Set your Gemini API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDiHecufG4caaZpc8fJr_iZ6hTGmm1gPuw"  # Replace 'key' with your actual API key
+os.environ['GOOGLE_API_KEY'] = "key"  # Replace 'key' with your actual API key
 
 # Initialize LLM with Gemini
 llm = LLM(
